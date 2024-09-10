@@ -70,13 +70,78 @@ header .banner-content button {
 
 /* ---------- PRINCIPAL ---------- */
 
-/* h2 {
+section {
+    margin: 100px auto;
+}
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
     font-size: 2rem;
     color: #33a8db;
-    font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-bottom: 24px;
-} */
+}
+
+#course-content p {
+    color: white;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    width: 530px;
+    padding: 16px;
+    border: 1px solid #33a8db;
+    margin: 0px auto 24px;
+    color: white;
+    background-color: rgba(37, 37, 37, 1);
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    border-radius: 100px;
+}
+
+#course-content .modules-list .module span {
+    color: #33a8db;
+}
+
+#transform-world {
+    background-image: url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    height: 560px;
+    padding: 200px;
+}
+
+#transform-world p {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 3px 2px #33a8db;
+    max-width: 250px;
+    text-transform: lowercase;
+    color: white;
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+#professional-challenges p {
+    color: white;
+}
 
 /* ---------- RODAPÉ ---------- */
