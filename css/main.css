@@ -145,3 +145,24 @@ h2 {
 }
 
 /* ---------- RODAPÉ ---------- */
+
+footer {
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33a8db80;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 300px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: #33a8db;
+    font-weight: bold;
+    text-decoration: none;
+}
