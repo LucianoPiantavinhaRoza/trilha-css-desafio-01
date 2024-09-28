@@ -7,7 +7,7 @@ body {
 /* ---------- CABEÇALHO ---------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgb(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("/assets/images/banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgb(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("../assets/images/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -113,7 +113,7 @@ h2 {
 }
 
 #transform-world {
-    background-image: url("/assets/images/woman-code.png");
+    background-image: url("../assets/images/woman-code.png");
     background-size: cover;
     background-attachment: fixed;
     border-top: 1px solid #33a8db80;
